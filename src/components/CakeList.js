@@ -1,3 +1,5 @@
+import Cake from "./Cake";
+
 const CakeList = ({listOfCakes}) => {
     
     const cakeCompontents = listOfCakes.map((cake, index) => {
