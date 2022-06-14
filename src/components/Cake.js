@@ -1,6 +1,6 @@
 const Cake = ({cake}) => {
 
-    const {name, ingredients = [], rating} = cake
+    const {cakeName, ingredients, rating} = cake
 
     return (
         <>
