@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const NewCake = ({addNewCake}) => {
 
     const [cakeName, setCakeName] = useState("");
