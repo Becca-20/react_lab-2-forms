@@ -1,4 +1,5 @@
 import CakeList from "../components/CakeList";
+import NewCake from "../components/NewCake";
 import Status from "../components/Status";
 import { useState } from "react";
 
