@@ -31,6 +31,12 @@ const CakeContainer = () => {
 
     const [applicationsOpen, setApplicationsOpen] = useState(true);
 
+    const addNewCake = (newCake) => {
+        setCakes([...cakes, newCake]);
+
+        console.log("added new cake!");
+    };
+
     const updateApplicationStatus = () => {
         console.log("updating status")
         setApplicationsOpen(!applicationsOpen);
@@ -38,6 +44,7 @@ const CakeContainer = () => {
 
     return (
         <>
+            <NewCake addNewCake={addNewCake}/>
             <CakeList listOfCakes={cakes}/>
             <Status
                 applicationsOpen={applicationsOpen}
