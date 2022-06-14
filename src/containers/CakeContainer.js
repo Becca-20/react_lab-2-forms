@@ -44,8 +44,8 @@ const CakeContainer = () => {
 
     return (
         <>
-            <NewCake addNewCake={addNewCake}/>
-            <CakeList listOfCakes={cakes}/>
+            <NewCake addNewCake={addNewCake} />
+            <CakeList listOfCakes={cakes} />
             <Status
                 applicationsOpen={applicationsOpen}
                 handleButtonClick={updateApplicationStatus}
